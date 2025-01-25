@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="title" class="main message">I am Syed Omer Ali</h1>
+    <script>
+        let title = document.getElementById("title");
+
+        // title.classList.add("new", "new2")// u can add mul;tpul class list
+        // // title.classList.remove("message","main")// this is use to remove the class name 
+        // title.classList.replace("message", "lg")// u can also u replace the classlist
+        // //    console.log(title.classList);  // it will show all the class name we can use this for add and remove class
+        // console.log(title.classList.contains("message")); // it will check that the class is exis or not
+
+        title.classList.toggle("message");// if the class is avilable so it will remove if it is not it will add the class
+        console.log(title);
+    </script>
+</body>
+
+</html>

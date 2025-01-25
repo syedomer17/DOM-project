@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul id="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li style="display: none;">Project</li>
+    </ul>
+    <script>
+
+        let menu = document.getElementById("menu");
+
+        console.log(menu.textContent);// it wil ignor the tage and it will display the contain inside the tage 
+        console.log(menu.innerText);// the innerText will give the output of visable text
+
+        menu.textContent = "hello!"// it will add text in the web page 
+    </script>
+</body>
+
+</html>

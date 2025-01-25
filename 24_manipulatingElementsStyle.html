@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="userName" placeholder="userName" style="background-color: red; font-size: 20px;">
+    
+    <script>
+        let inputBox = document.getElementById("userName");
+        
+        // console.log(inputBox.style.fontSize);
+        // inputBox.style.padding = "10px";
+        inputBox.style.cssText += "width:200px; heigth:100px";//concating
+        console.log(inputBox);
+    </script>
+</body>
+</html>

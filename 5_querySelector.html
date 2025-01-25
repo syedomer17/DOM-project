@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1 class="message">first</h1>
+        <div id="container">
+            <h1 class="message">second</h1>
+            <h1 class="message">third</h1>
+        </div>
+    <script>
+        let cont = document.getElementById("container");
+        let msg = document.querySelectorAll("div, h1")
+        // let msg = cont.querySelectorAll("message")
+        // let msg = document.querySelector('.message')
+        console.log(msg);
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="title">
+        <p class="text">Welcome to DOM</p>
+    </div>
+    <div class="ex">
+        <p>Welcome to DOM 1</p>
+        <p class="second">Welcome to DOM 2</p>
+        <p>Welcome to DOM 3</p>
+        <p>Welcome to DOM 4</p>
+    </div>
+    <script>
+        let txt = document.querySelector('.text');
+        console.log(txt.parentNode);// it will desplay parent ele
+
+        let parent = document.querySelector(".ex");
+        console.log(parent.firstElementChild);
+        console.log(parent.lastElementChild);
+        console.log(parent.childNodes);
+
+        let second = document.querySelector(".second");
+        console.log(second.previousElementSibling);// it will give the previous one
+        console.log(second.nextElementSibling);// it will display third
+
+    </script>
+</body>
+
+</html>
